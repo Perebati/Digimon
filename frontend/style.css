@@ -1,0 +1,138 @@
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+    min-height: 700px;
+}
+
+
+#get-All{
+    background-color: aliceblue;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 5;
+}
+
+#get-By-Name{
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-row-end: 7;
+    grid-column-end: 5;
+}
+
+#get-By-Level{
+    grid-row-start: 8;
+    grid-column-start: 1;
+    grid-row-end: 10;
+    grid-column-end: 5;
+
+}
+
+#show-data{
+    column-count: 6;
+    background-color: aliceblue;
+    grid-row-start: 2;
+    grid-column-start: 6;
+    grid-row-end: 10;
+    grid-column-end: 12;
+    padding: 10px;
+}
+
+#titulo{
+    background-color: lightgrey;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-end: 1;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+
+.button-19 {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 30%;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+.align-center{
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#nome,#level{
+    margin-bottom: 5px;
+
+}
+
